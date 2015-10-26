@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Comwell\Comwell.csproj">
+    <ProjectReference Include="..\Comwell\Comwell.Web.csproj">
       <Project>{527E3F59-210E-4735-ACDC-28A6198CDB76}</Project>
-      <Name>Comwell</Name>
+      <Name>Comwell.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
